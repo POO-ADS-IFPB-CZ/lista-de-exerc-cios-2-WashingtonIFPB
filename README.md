@@ -19,3 +19,11 @@ public class Produto {
         this.preco = preco;
     }
 }
+
+Questão 2:
+a) Título, autor, editora, ano de publicação, gênero, número de páginas, status, código, etc.
+b) Porque ela representa, de forma simplificada e genérica, as características e comportamentos essenciais de um livro real dentro do contexto do sistema, ocultando detalhes irrelevantes para o funcionamento do programa.
+c) 
+emprestar(): altera o status do livro para "emprestado", caso esteja disponível.
+devolver(): marca o livro como "disponível" novamente.
+reservar(): define o status como "reservado", se o livro não estiver emprestado.
